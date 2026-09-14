@@ -28,11 +28,11 @@ export const navbarLinks = [
 
 // ============ Events_card Data ============== //
 
-import weddingImg from "../assets/img1.avif";
-import corporateImg from "../assets/img2.avif";
-import birthdayImg from "../assets/img3.avif";
-import engagementImg from "../assets/img4.avif";
-import anniversaryImg from "../assets/img5.avif";
+import weddingImg from "../assets/Img1.avif";
+import corporateImg from "../assets/Img2.avif";
+import birthdayImg from "../assets/Img3.avif";
+import engagementImg from "../assets/Img4.avif";
+import anniversaryImg from "../assets/Img5.avif";
 
 export const events = [
     {
