@@ -20,7 +20,7 @@ const Home = () => {
                         </h1>
 
                         <p className="mx-auto  max-w-2xl font-roboto text-sm md:text-md text-white">
-                            <span className="font-bold text-lg font-caveat">   Creating Moments  Managing Memories,</span> Professional event management services that bring your vision to life. We design, plan and manage extraordinary events that turn your special moments into unforgettable memories. Your one-stop solution for destination event management.
+                            <span className="font-bold text-lg font-caveat">   Creating Moments  Managing Memories,</span> Professional event management services that bring your vision to life. We design, plan and manage extraordinary events that turn your special moments into unforgettable memories. Your one-stop solution for destination events , management.
                         </p>
                         {/* Btn component  */}
                         <Button variant="primary" size="sm" className="mt-2 text-sm py-0 px-4 border-none text-gray-500 bg-orange-300 hover:bg-orange-500">
