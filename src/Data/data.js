@@ -23,7 +23,7 @@ export const navbarLinks = [
         name: "Contact",
 
     },
-];
+]; ""
 
 
 // ============ Events_card Data ============== //
