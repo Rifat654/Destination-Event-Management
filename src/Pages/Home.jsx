@@ -14,7 +14,7 @@ const Home = () => {
 
                 {/* Hero Content */}
                 <div className="relative z-10 flex items-center h-full justify-center px-4 text-center text-white">
-                    <div className="  mb-30 md:mb-17 flex flex-col items-center gap-4 md:gap-6">
+                    <div className=" mt-0 md:mt-20 flex flex-col items-center gap-4 md:gap-6">
                         <h1 className="font-caveat text-4xl font-bold md:text-6xl">
                             <span className=" text-orange-400  hover:text-amber-50 cursor-pointer text-5xl md:text-7xl duration-400">Destination</span> Event Management
                         </h1>

@@ -10,7 +10,7 @@ const Footer = () => {
 
                     {/* Brand */}
                     <div className="lg:col-span-2">
-                        <h2 className="font-estonia text-5xl">
+                        <h2 className="font-estonia text-5xl mb-2">
                             Destination
                         </h2>
 

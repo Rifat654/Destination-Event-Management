@@ -50,7 +50,7 @@ const Navbar = () => {
             absolute left-0 right-0 top-full z-50 mt-2
             flex flex-col items-center gap-6 py-3
             rounded-xl border border-white/30
-           bg-black/40 text-left shadow-lg backdrop-blur-md
+           bg-black/65 text-left shadow-lg backdrop-blur-md
             transition-all duration-500 ease-in-out
             md:hidden
             ${open

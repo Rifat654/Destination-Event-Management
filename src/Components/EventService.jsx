@@ -66,13 +66,13 @@ const EventService = () => {
 
 
                 {/* ================= RIGHT : CONTENT ================= */}
-                <div className="w-full max-w-xl">
+                <div className="w-full max-w-xl mb-15 md:mb-0">
 
                     <span className="mb-4 block text-[11px] font-semibold uppercase tracking-[4px] text-gray-500">
 
                     </span>
 
-                    <h1 className="font-estonia text-3xl leading-tight text-gray-900 md:text-5xl">
+                    <h1 className="font-estonia text-4xl leading-tight text-gray-900 md:text-5xl">
                         We Turn Your Vision
                         <span className="block italic text-gray-500">
                             Into Reality.
@@ -87,10 +87,10 @@ const EventService = () => {
 
                     {/* Achievement */}
                     <div className="mt-8 border-y border-gray-200 py-6">
-                        <div className="flex flex-wrap items-center gap-8">
+                        <div className="flex  items-center gap-8 ">
 
-                            <div>
-                                <span className="font-estonia text-5xl text-gray-900">
+                            <div className="text-2xl md:text-5xl">
+                                <span className="font-estonia  text-gray-900">
                                     500+
                                 </span>
 
@@ -101,8 +101,8 @@ const EventService = () => {
 
                             <div className="h-12 w-px bg-gray-200" />
 
-                            <div>
-                                <span className="font-estonia text-5xl text-gray-900">
+                            <div className="text-2xl md:text-5xl">
+                                <span className="font-estonia text-gray-900">
                                     98%
                                 </span>
 
@@ -111,8 +111,8 @@ const EventService = () => {
                                 </p>
                             </div>
                             <div className="h-12 w-px bg-gray-200" />
-                            <div>
-                                <span className="font-estonia text-5xl text-gray-900">
+                            <div className="text-2xl md:text-5xl">
+                                <span className="font-estonia  text-gray-900">
                                     7+
                                 </span>
 
