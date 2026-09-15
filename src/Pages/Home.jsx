@@ -43,7 +43,7 @@ const Home = () => {
 
             </section>
 
-
+            {/* ========================= Event achievements ============================== */}
             <section className="relative overflow-hidden py-12">
 
                 {/* Background */}
