@@ -33,7 +33,7 @@ const Footer = () => {
 
                         <div className="space-y-3 text-sm text-white/50">
                             <p>+880 1XXX-XXXXXX</p>
-                            <p>hello@destinationevents.com</p>
+                            <p>info@destinationevent.com</p>
                             <p>Dhaka, Bangladesh</p>
                         </div>
                     </div>
@@ -46,11 +46,8 @@ const Footer = () => {
                         </h4>
 
                         <div className="space-y-3 text-sm text-white/50">
-                            <p>Monday — Friday</p>
-                            <p className="text-white">10:00 AM — 8:00 PM</p>
-
                             <p className="pt-2">Saturday — Sunday</p>
-                            <p className="text-white">11:00 AM — 6:00 PM</p>
+                            <p className="text-white">9:00 AM — 6:00 PM</p>
                         </div>
                     </div>
 

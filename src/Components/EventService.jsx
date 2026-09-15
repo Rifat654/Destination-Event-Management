@@ -91,7 +91,7 @@ const EventService = () => {
 
                             <div>
                                 <span className="font-estonia text-5xl text-gray-900">
-                                    250+
+                                    500+
                                 </span>
 
                                 <p className="mt-1 text-[10px] uppercase tracking-[2px] text-gray-500">
@@ -113,11 +113,11 @@ const EventService = () => {
                             <div className="h-12 w-px bg-gray-200" />
                             <div>
                                 <span className="font-estonia text-5xl text-gray-900">
-                                    98%
+                                    7+
                                 </span>
 
                                 <p className="mt-1 text-[10px] uppercase tracking-[2px] text-gray-500">
-                                    Happy Clients
+                                    Years Experience
                                 </p>
                             </div>
 
