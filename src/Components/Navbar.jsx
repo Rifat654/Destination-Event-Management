@@ -23,11 +23,13 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden items-center gap-8 md:flex">
           {navbarLinks.map((link) => (
-            <li
-              key={link.id}
-              className="cursor-pointer font-open-sans text-white transition duration-300 hover:text-orange-300"
-            >
-              {link.name}
+            <li key={link.id}>
+              <a
+                href={link.href}
+                className="cursor-pointer font-open-sans text-white transition duration-300 hover:text-orange-300"
+              >
+                {link.name}
+              </a>
             </li>
           ))}
         </ul>
@@ -60,12 +62,13 @@ const Navbar = () => {
           `}
         >
           {navbarLinks.map((link) => (
-            <li
-              key={link.id}
-              onClick={() => setOpen(false)}
-              className="cursor-pointer font-open-sans text-white transition duration-300 hover:text-orange-300"
-            >
-              {link.name}
+            <li key={link.id}>
+              <a
+                href={link.href}
+                className="cursor-pointer font-open-sans text-white transition duration-300 hover:text-orange-300"
+              >
+                {link.name}
+              </a>
             </li>
           ))}
         </ul>

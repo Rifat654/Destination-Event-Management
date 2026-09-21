@@ -37,14 +37,14 @@ const Home = () => {
 
 
             {/* ====================== Event service section ======================== */}
-            <section>
+            <section id="about"  >
 
                 <EventService />
 
             </section>
 
             {/* ========================= Event achievements ============================== */}
-            <section className="relative overflow-hidden py-12">
+            <section id="events" className="relative overflow-hidden py-12">
 
                 {/* Background */}
                 <img
