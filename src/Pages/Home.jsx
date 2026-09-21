@@ -3,6 +3,7 @@ import Event_card from "../Components/Event_card";
 import EventService from "../Components/EventService";
 import service_image from "../assets/Event image 2.jpg"
 
+
 const Home = () => {
     return (
         <main>
@@ -128,7 +129,221 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* ======================== Packages  ========================== */}
+            <section className="bg-slate-950 px-6 py-20 text-white md:px-10 lg:px-16">
+                <div className="mx-auto max-w-7xl text-center">
+                    <p className="mb-3 font-open-sans text-sm font-semibold uppercase tracking-[0.25em] text-orange-400">
+                        Our Packages
+                    </p>
 
+                    <h2 className="font-estonia text-3xl leading-tight md:text-5xl">
+                        Choose Your Perfect Plan
+                    </h2>
+
+                    <p className="mt-5 font-open-sans leading-7 text-slate-400 text-sm">
+                        Flexible packages that can be customized according to your event requirements.
+                    </p>
+                    <div className="mx-auto max-w-7xl my-0 px-4 py-10 md:px-8 lg:px-16">
+                        {/* Section Heading */}
+
+
+                        {/* Packages */}
+                        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+                            {/* Package 01 */}
+                            <div className="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-md transition duration-500 hover:-translate-y-2 hover:border-orange-400/40">
+
+                                <div className="mb-6">
+                                    <p className="font-open-sans text-xs font-semibold uppercase tracking-widest text-slate-400">
+                                        Essential
+                                    </p>
+
+                                    <h3 className="mt-2 font-estonia text-3xl">
+                                        Intimate <br /> Moments
+                                    </h3>
+
+                                    <div className="mt-5">
+                                        <span className="font-open-sans text-3xl font-bold">
+                                            ৳49,900
+                                        </span>
+
+                                        <span className="ml-2 text-xs text-slate-400">
+                                            / event
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div className="mb-6 h-px bg-white/10" />
+
+                                <ul className="space-y-3 font-open-sans text-sm text-slate-300">
+                                    <li className="flex items-center gap-3">
+                                        <span className="text-orange-400">✓</span>
+                                        Event planning consultation
+                                    </li>
+
+                                    <li className="flex items-center gap-3">
+                                        <span className="text-orange-400">✓</span>
+                                        Basic venue decoration
+                                    </li>
+                                    <li className="flex items-center gap-3">
+                                        <span className="text-orange-400">✓</span>
+                                        Basic venue decoration
+                                    </li>
+
+                                    <li className="flex items-center gap-3">
+                                        <span className="text-orange-400">✓</span>
+                                        Professional event coordination
+                                    </li>
+
+                                    <li className="flex items-center gap-3">
+                                        <span className="text-orange-400">✓</span>
+                                        Guest management
+                                    </li>
+
+                                    <li className="flex items-center gap-3">
+                                        <span className="text-orange-400">✓</span>
+                                        4 hours event coverage
+                                    </li>
+                                </ul>
+
+                                <button className="mt-8 w-full rounded-full border border-white/20 px-5 py-2.5 font-open-sans text-sm font-semibold transition duration-300 hover:border-orange-400 hover:bg-orange-400 hover:text-slate-950">
+                                    Get Started
+                                </button>
+                            </div>
+
+
+                            {/* Package 02 */}
+                            <div className="relative rounded-3xl border border-orange-400/60 bg-orange-400 p-6 text-slate-950 shadow-2xl shadow-orange-500/10 transition duration-500 hover:-translate-y-2">
+
+
+
+                                <div className="mb-6">
+                                    <p className="font-open-sans text-xs font-semibold uppercase tracking-widest text-slate-700">
+                                        Premium
+                                    </p>
+
+                                    <h3 className="mt-2 font-estonia text-3xl">
+                                        Signature Celebration
+                                    </h3>
+
+                                    <div className="mt-5">
+                                        <span className="font-open-sans text-3xl font-bold">
+                                            ৳99,900
+                                        </span>
+
+                                        <span className="ml-2 text-xs text-slate-700">
+                                            / event
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div className="mb-6 h-px bg-slate-950/15" />
+
+                                <ul className="space-y-3 font-open-sans text-sm text-slate-800">
+                                    <li className="flex items-center gap-3">
+                                        <span>✓</span>
+                                        Complete event planning
+                                    </li>
+
+                                    <li className="flex items-center gap-3">
+                                        <span>✓</span>
+                                        Premium venue decoration
+                                    </li>
+
+                                    <li className="flex items-center gap-3">
+                                        <span>✓</span>
+                                        Photography & videography
+                                    </li>
+
+                                    <li className="flex items-center gap-3">
+                                        <span>✓</span>
+                                        Catering coordination
+                                    </li>
+
+                                    <li className="flex items-center gap-3">
+                                        <span>✓</span>
+                                        Entertainment management
+                                    </li>
+
+                                    <li className="flex items-center gap-3">
+                                        <span>✓</span>
+                                        Full event-day coordination
+                                    </li>
+                                </ul>
+
+                                <button className="mt-8 w-full rounded-full bg-slate-950 px-5 py-2.5 font-open-sans text-sm font-semibold text-white transition duration-300 hover:bg-slate-800">
+                                    Choose Package
+                                </button>
+                            </div>
+
+
+                            {/* Package 03 */}
+                            <div className="group rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-md transition duration-500 hover:-translate-y-2 hover:border-orange-400/40">
+
+                                <div className="mb-6">
+                                    <p className="font-open-sans text-xs font-semibold uppercase tracking-widest text-slate-400">
+                                        Luxury
+                                    </p>
+
+                                    <h3 className="mt-2 font-estonia text-3xl">
+                                        Destination Experience
+                                    </h3>
+
+                                    <div className="mt-5">
+                                        <span className="font-open-sans text-3xl font-bold">
+                                            ৳1,99,900
+                                        </span>
+
+                                        <span className="ml-2 text-xs text-slate-400">
+                                            / event
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div className="mb-6 h-px bg-white/10" />
+
+                                <ul className="space-y-3 font-open-sans text-sm text-slate-300">
+                                    <li className="flex items-center gap-3">
+                                        <span className="text-orange-400">✓</span>
+                                        Full-service event planning
+                                    </li>
+
+                                    <li className="flex items-center gap-3">
+                                        <span className="text-orange-400">✓</span>
+                                        Luxury destination setup
+                                    </li>
+
+                                    <li className="flex items-center gap-3">
+                                        <span className="text-orange-400">✓</span>
+                                        Premium photography & film
+                                    </li>
+
+                                    <li className="flex items-center gap-3">
+                                        <span className="text-orange-400">✓</span>
+                                        Catering & hospitality
+                                    </li>
+
+                                    <li className="flex items-center gap-3">
+                                        <span className="text-orange-400">✓</span>
+                                        Entertainment & production
+                                    </li>
+
+                                    <li className="flex items-center gap-3">
+                                        <span className="text-orange-400">✓</span>
+                                        Dedicated event manager
+                                    </li>
+                                </ul>
+
+                                <button className="mt-8 w-full rounded-full border border-white/20 px-5 py-2.5 font-open-sans text-sm font-semibold transition duration-300 hover:border-orange-400 hover:bg-orange-400 hover:text-slate-950">
+                                    Plan Your Event
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
         </main >
     );
 };
