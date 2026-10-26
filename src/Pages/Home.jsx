@@ -11,7 +11,7 @@ const Home = () => {
                 className="banner  h-screen md:h-screen w-full bg-cover bg-center">
 
                 {/* Dark Overlay */}
-                <div className="absolute inset-0 bg-black/60"></div>
+                <div className="absolute inset-0 h-full bg-black/60"></div>
 
                 {/* Hero Content */}
                 <div className="relative z-10 flex items-center h-full justify-center px-4 text-center text-white">
